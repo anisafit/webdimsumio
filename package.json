@@ -1,9 +1,9 @@
 {
+  "homepage": "https://github.io/anisafit/webdimsumio",
   "name": "webdimsumio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.io/anisafit/webdimsumio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
