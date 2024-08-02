@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/anisafit/webdimsumio",
+  "homepage": "https://github.io/anisafit/webdimsumio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
