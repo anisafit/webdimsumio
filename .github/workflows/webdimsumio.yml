@@ -13,6 +13,8 @@ jobs:
           node-version: 18.x
       - name: Install Dependencies
         run: npm install
+      - name: Fix vite permission
+        run: chmod +x node_modules/.bin/vite
       - name: Build Project
         run: npm run build
       - name: Upload artifact to enable deployment
