@@ -1,0 +1,68 @@
+.products-container {
+    padding: 80px;
+    text-align: center;
+    max-width: 1200px; /* Atur lebar maksimal untuk kontainer */
+    margin: 0 auto; /* Pusatkan kontainer secara horizontal */
+    margin-left: 130px;
+  }
+  
+  .products-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .products-row {
+    display: flex;
+    justify-content: center; /* Pusatkan card dalam baris */
+    flex-wrap: wrap; /* Bungkus card ke baris baru jika perlu */
+    gap: 20px; /* Ruang antara card */
+    margin-bottom: 40px; /* Ruang antara baris */
+  }
+  
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 350px; /* Tinggi tetap untuk card */
+    width: 250px; /* Lebar tetap untuk card */
+    background-color: #fff; /* Latar belakang putih untuk card */
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 170px; /* Tinggi tetap untuk gambar */
+    object-fit: cover; /* Memastikan gambar menutupi kontainer */
+  }
+  
+  .product-info {
+    padding: 15px;
+    text-align: left;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .product-name {
+    font-size: 1.25rem;
+    margin: 0;
+    color: #333;
+    text-align: center;
+  }
+  
+  .product-description {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+    text-align: justify;
+  }
+  

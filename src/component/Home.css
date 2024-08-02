@@ -1,0 +1,87 @@
+/* src/components/Home.css */
+.home-container {
+    text-align: center;
+    padding: 0; /* Remove padding for the carousel */
+  }
+  
+  .carousel .slide {
+    position: relative;
+  }
+  
+  .carousel-slide img {
+    width: 100%; /* Set the width to 100% */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 500px; /* Optional: Set a max height to keep the image from being too tall */
+    object-fit: cover; /* Ensure the image covers the container */
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 100%; /* Ensure the caption is full-width */
+  }
+  
+  .carousel-caption h1 {
+    font-size: 2.5rem; /* Adjust the font size as needed */
+    margin: 0;
+  }
+  
+  .carousel-caption h2 {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    margin: 0;
+  }
+  
+  section {
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 1000px; /* Adjust the maximum width */
+  }
+  
+  .about, .mission-vision, .owner {
+    margin-bottom: 20px;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .about p, .mission p, .vision p, .owner-details p {
+    margin: 0;
+    text-align: justify;
+  }
+  
+  .mission, .vision {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .owner-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the start */
+  }
+  
+  .owner-info img {
+    border-radius: 50%;
+    width: 400px; /* Adjust size as needed */
+    height: 450px; /* Adjust size as needed */
+    margin-right: 80px;
+  }
+  
+  .owner-details {
+    max-width: 400px;
+    margin-bottom: 180px;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  

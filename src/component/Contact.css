@@ -1,0 +1,67 @@
+/* src/components/Contact.css */
+.contact-container {
+    padding: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-content {
+    display: flex;
+    flex-direction: column; /* Default to column for small screens */
+    align-items: center;
+  }
+  
+  .contact-info, .contact-image {
+    width: 100%;
+    max-width: 600px; /* Limit max width for better readability */
+    margin-bottom: 20px;
+  }
+  
+  .contact-details {
+    margin-bottom: 20px;
+  } 
+  
+  .social-media-section {
+    margin-bottom: 20px;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-media a {
+    display: inline-block;
+  }
+  
+  .social-media img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .contact-image img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Media queries for responsiveness */
+  @media (min-width: 768px) {
+    .contact-content {
+      flex-direction: row; /* Switch to row layout on larger screens */
+      justify-content: space-between;
+    }
+  
+    .contact-info, .contact-image {
+      width: 48%; /* Use more horizontal space on larger screens */
+    }
+  }
+  
