@@ -21,13 +21,13 @@ const Contact = () => {
             <h3>Kunjungi dan follow juga akun INSTAGRAM dan TIKTOK kami yaa</h3>
             <div className="social-media">
               <a href="https://www.instagram.com/dimsum.io_mpl" target="_blank" rel="noopener noreferrer">
-                <img src="/icons/instagram.png" alt="Instagram" />
+                <img src="/dist/icons/instagram.png" alt="Instagram" />
               </a>
               <a href="https://www.tiktok.com/@dimsum.io" target="_blank" rel="noopener noreferrer">
-                <img src="/icons/tiktok.png" alt="TikTok" />
+                <img src="/dist/icons/tiktok.png" alt="TikTok" />
               </a>
               <a href="https://linktr.ee/dimsum.io" target="_blank" rel="noopener noreferrer">
-                <img src="/icons/linktree.png" alt="Linktree" />
+                <img src="/dist/icons/linktree.png" alt="Linktree" />
               </a>
             </div>
           </div>
@@ -36,7 +36,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="contact-image">
-          <img src="/images/dimsumkomplit.jpeg" alt="Dimsum" />
+          <img src="/dist/images/dimsumkomplit.jpeg" alt="Dimsum" />
         </div>
       </div>
     </div>

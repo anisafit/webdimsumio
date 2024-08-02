@@ -17,7 +17,7 @@ const Home = () => {
         showStatus={false}
       >
         <div className="carousel-slide">
-          <img src="/images/bgdimsumio.jpg" alt="Dimsum 1" />
+          <img src="/dist/images/bgdimsumio.jpg" alt="Dimsum 1" />
           <div className="carousel-caption">
             <h1>Dimsum.io</h1>
             <h2>When curiosity meet hunger</h2>

@@ -11,7 +11,7 @@ const Navigation = ({ currentPage, setCurrentPage }) => {
   return (
     <nav className="nav-container">
       <div className="logo">
-        <img src="/images/logodimsum.jpg" alt="Dimsum Logo" />
+        <img src="/dist/images/logodimsum.jpg" alt="Dimsum Logo" />
       </div>
       <div className={`hamburger ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
         <div className="bar"></div>
