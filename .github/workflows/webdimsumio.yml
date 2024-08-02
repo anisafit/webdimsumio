@@ -35,5 +35,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github token: ${{ secrets.WEBDIMSUMIO_TOKEN }}
-          publish dir: ./dist
+          github_token: ${{ secrets.WEBDIMSUMIO_TOKEN }}
+          publish_dir: ./dist
